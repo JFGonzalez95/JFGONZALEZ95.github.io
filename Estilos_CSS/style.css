@@ -631,6 +631,8 @@ td, th{
 }
 .text-input_cabeceras {
   background-color: white;
+  overflow-y: auto;   /* aparece scroll vertical solo si es necesario */
+  overflow-x: hidden;
   white-space:  pre-wrap;
   overflow-wrap: break-word;   /* estándar moderno */   
   border-radius: 0.5em;
