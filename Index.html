@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF -8">
+  <meta name="viewport" content="width=device-width">
+  <title>Blog Space Free</title>
+  <link rel="stylesheet" href="Estilos_CSS/reset.css">
+  <link rel="stylesheet" href="Estilos_CSS/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <div class="caja">
+      <img class="banner" src="imagenes/Cabecera.jpg">
+      <nav>
+        <ul>
+          <li><a href="Index.html">Javascript</a></li>
+          <li><a href="libros.html">Libros</a></li>
+          <li><a href="peliculas.html">Peliculas</a></li>
+          <li><a href="frase_del_dia.html">Frases</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="principal">
+     <h2 class="titulo-principal" > Detectar palíndromo  </h2>
+      <div style="text-align:center; margin: 50px 0px;">
+      </div>
+      <div >
+        <input type="text" class="text-input_in"  id="input-palabra" placeholder="Escribe una palabra">
+        <div class="text-input_out"  id="output-palabra"></div>
+        <button class="btn_1" id="nueva-palabra">¿ Es palindromo ?</button>
+        <button class="btn_2" id="borrar-resultado">Borrar Input</button>
+      </div>
+    </section>
+
+    <section class="mapa">
+       <h2 class="titulo-principal" > Numero mayor  </h2>
+      <div style="text-align:center; margin: 50px 0px;">
+      </div>
+      <div >
+        <span class="etiqueta"> Numero 1: </span>
+        <input class="text-input_in"  id="input-numero1" placeholder="Ingresa un numero">
+        <br></br>
+        <span class="etiqueta"> Numero 2: </span>
+        <input class="text-input_in"  id="input-numero2" placeholder="Ingresa un numero">
+        <div class="text-input_out_2"  id="output-comparacion"></div>
+        <br></br>
+        <button class="btn_3" id="comparar">Comparar</button>
+        <button class="btn_4" id="borrar-comparacion">Borrar Input</button>
+      </div>
+    </section>
+   <section class="principal">
+     <h2 class="titulo-principal" > Detectar Vocales  </h2>
+      <div style="text-align:center; margin: 50px 0px;">
+      </div>
+      <div >
+        <input class="text-input_in"  id="input-frase" placeholder="Escribe una frase">
+        <div class="text-input_out"  id="output-frase"></div>
+        <button class="btn_5" id="nueva-frase">Detectar vocales</button>
+        <button class="btn_6" id="borrar-frase">Borrar Input</button>
+      </div>
+    </section>
+  <section class="mapa">
+         <h2 class="titulo-principal" > Conteo Vocales  </h2>
+      <div style="text-align:center; margin: 50px 0px;">
+      </div>
+      <div >
+        <input class="text-input_in"  id="input-vocal" placeholder="Escribe una frase">
+        <div class="text-input_out"  id="output-vocal"></div>
+        <button class="btn_7" id="nueva-vocal">Contar vocales</button>
+        <button class="btn_8" id="borrar-vocal">Borrar Input</button>
+      </div>
+    </section>
+    <section class="principal">
+     <h2 class="titulo-principal" > Ejercicios AJAX  </h2>
+      <div style="text-align:center; margin: 50px 0px;">
+      </div>
+      <div >
+        <input class="text-input_url"  value="https://jfgonzalez95.github.io/" id="input-url" placeholder="Ingresa una url">
+        <button class="btn_9" id="consultar-url">Consultar</button>
+        <button class="btn_10" id="borrar-peticion">Borrar</button>
+      </div>
+      <div>
+        <br></br>
+        <span class="spam_1">Estado de la petición</span>
+        <div class="text-input_peticion" id="input-peticion"></div>
+        <div class="spinner" id ="spinner" style="display:none;">⏳</div>
+        <br></br>
+        <span class="spam_1">Código de estado</span>
+        <div class="text-input_peticion" id="input-estado"></div>
+        <br></br>
+        <span class="spam_1">Cabeceras HTTP</span>
+        <div class="text-input_cabeceras" id="input-cabecera"></div>
+        <br></br>
+          <span class="spam_1">Contenido web</span>
+        <div class="text-input_cont_web" id="input-contenido"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="copyright">&copy Copyright blog - 2025 </p>
+  </footer>
+
+  <script type="text/javascript" src="Programa_Principal.js"></script>
+</body>
+
+</html>
